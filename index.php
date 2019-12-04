@@ -3,15 +3,40 @@ require "vendor/autoload.php";
 use App\apimeteo\OpenWeather;
 
 
+$meteo =  new OpenWeather();
+$m = $meteo->getToDay('Kiev', 'ua');
 
-$meteo =  new OpenWeather('60ea8053e2377090969762659f2d5029');
-//var_dump($meteo->getForeCast('Paris'));
- $m = $meteo->getToDay('Paris');
- var_dump($m); die();
+?>
 
-echo "<ul><li><strong>{$m['city']}</strong></li></li><li>{$m['date']}   Ciel {$m['description']} {$m['temp']}°C</li></ul>";
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-echo "<hr/>";
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-$p = $meteo->getForeCast('Kiev');
-var_dump($p);
+    <title>Call Api </title>
+</head>
+<body>
+<h1>Weather</h1>
+
+
+
+    <ul style="list-style-type: none">
+        <li><ion-icon name="pin"></ion-icon> <strong> <?=$m->city?></strong></li>
+        <li><?=$meteo->dateFr($m->date)->date.' '.$meteo->dateFr($m->date)->hour."<br/>".$m->description.' '.ceil($m->temp)?>°C</li>
+        <li><img src="http://openweathermap.org/img/wn/<?=$m->image?>@2x.png"></li>
+    </ul>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

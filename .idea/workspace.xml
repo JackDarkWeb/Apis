@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="241ee6c9-0063-47fb-b1bc-299441ec08f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Apis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Apis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jackd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/jackd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/apimeteo" beforeDir="false" afterPath="$PROJECT_DIR$/App/apimeteo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/apimeteo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App/apimeteo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/apimeteo/OpenWeather.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/apimeteo/OpenWeather.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/apimeteo/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/apimeteo/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/apimeteo/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -20,7 +29,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/App/apimeteo" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1UVjCwvAhZwR9LDEc4rRisLknl1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,7 +71,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575448532511</updated>
-      <workItem from="1575448534000" duration="2616000" />
+      <workItem from="1575448534000" duration="3110000" />
+      <workItem from="1575460917277" duration="6479000" />
     </task>
     <servers />
   </component>
@@ -70,7 +84,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

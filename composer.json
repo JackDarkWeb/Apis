@@ -12,5 +12,8 @@
             "App\\": "App/"
         }
     },
-    "require": {}
+    "require": {
+      "ext-curl": "*",
+        "ext-json": "*"
+    }
 }
