@@ -1,0 +1,16 @@
+{
+    "name": "jackweb/apis",
+    "description": "Call any api",
+    "authors": [
+        {
+            "name": "Jack Dark",
+            "email": "jacknouatin1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "require": {}
+}
