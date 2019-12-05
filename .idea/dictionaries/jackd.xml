@@ -5,6 +5,7 @@
       <w>appkey</w>
       <w>countrycode</w>
       <w>entercity</w>
+      <w>transf</w>
     </words>
   </dictionary>
 </component>

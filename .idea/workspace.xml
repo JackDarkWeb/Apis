@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="241ee6c9-0063-47fb-b1bc-299441ec08f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Apis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Apis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/apiInstagram/Instagram.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/apimeteo/request.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jackd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/jackd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/apimeteo" beforeDir="false" afterPath="$PROJECT_DIR$/App/apimeteo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/apimeteo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App/apimeteo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/apimeteo/OpenWeather.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/apimeteo/OpenWeather.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/apimeteo/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,14 +18,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/App/apimeteo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
@@ -40,7 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../babor" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
@@ -72,7 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575448532511</updated>
       <workItem from="1575448534000" duration="3110000" />
-      <workItem from="1575460917277" duration="6479000" />
+      <workItem from="1575460917277" duration="8180000" />
+      <workItem from="1575524712246" duration="9024000" />
     </task>
     <servers />
   </component>
