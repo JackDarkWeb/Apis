@@ -35,7 +35,7 @@ class GeoUser
 
     function get_data_user(){
 
-        $query = @unserialize(file_get_contents('http://ip-api.com/php/178.137.145.219'));
+        $query = @unserialize(file_get_contents('http://ip-api.com/php/'.$this->get_ip_user()));
         if($query && $query['status'] === 'success'){
             return $query;
         }
