@@ -10,9 +10,11 @@ abstract class CallApis
 
     /**
      * @param string $endpoint
+     * @param null $headerhost
+     * @param null $headerkey
      * @return array|null
      */
-    protected function callApi(string $endpoint): ?array{
+    protected function callApi(string $endpoint = null, $headerhost = null, $headerkey = null): ?array{
 
         $this->endpoint =  $endpoint;
 
@@ -20,13 +22,19 @@ abstract class CallApis
         curl_setopt_array($curl, array(
             CURLOPT_URL => $this->endpoint,
             CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_SSL_VERIFYPEER =>false,
+            CURLOPT_SSL_VERIFYPEER => false,
             //CURLOPT_CAINFO => dirname(__DIR__).DIRECTORY_SEPARATOR."cert.cer",
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
             CURLOPT_TIMEOUT => 30,
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
             CURLOPT_CUSTOMREQUEST => "GET",
+
+            CURLOPT_HTTPHEADER => array(
+                $headerhost,
+                $headerkey
+            ),
+
         ));
         $data = json_decode(curl_exec($curl), true);
         $err = curl_error($curl);

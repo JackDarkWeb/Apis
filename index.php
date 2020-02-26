@@ -1,10 +1,27 @@
 <?php
 require "vendor/autoload.php";
 use App\apimeteo\OpenWeather;
+use App\currencyconverter\CurrencyConverter;
+use App\GeoUser;
+
+var_dump((new GeoUser())->get_data_user());
+
+
+var_dump((new CurrencyConverter())->getCurrency('USD'));
+
+
+
+
 
 
 $meteo =  new OpenWeather();
 $m = $meteo->getToDay('Porto-Novo', 'bj');
+
+
+
+
+
+
 
 ?>
 
@@ -41,6 +58,7 @@ $m = $meteo->getToDay('Porto-Novo', 'bj');
                 <option value="Kiev,ua">Kiev</option>
                 <option value="London,uk">London</option>
                 <option value="Dakar,sn">Dakar</option>
+                <option value="Dnipro,ua">Dnepr</option>
             </select>
         </form>
         

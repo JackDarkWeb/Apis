@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="241ee6c9-0063-47fb-b1bc-299441ec08f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/apiInstagram/Instagram.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/GeoUser.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/App/apimeteo/request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/currencyconverter/CurrencyConverter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jackd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/jackd.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/CallApis.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/CallApis.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/apimeteo" beforeDir="false" afterPath="$PROJECT_DIR$/App/apimeteo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/apimeteo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App/apimeteo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/apimeteo/OpenWeather.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/apimeteo/OpenWeather.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/apimeteo/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../babor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../babor_version_beta" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
@@ -71,7 +74,11 @@
       <updated>1575448532511</updated>
       <workItem from="1575448534000" duration="3110000" />
       <workItem from="1575460917277" duration="8180000" />
-      <workItem from="1575524712246" duration="9024000" />
+      <workItem from="1575524712246" duration="9828000" />
+      <workItem from="1575596029754" duration="1531000" />
+      <workItem from="1575632630160" duration="327000" />
+      <workItem from="1582524112204" duration="10588000" />
+      <workItem from="1582708678036" duration="3132000" />
     </task>
     <servers />
   </component>

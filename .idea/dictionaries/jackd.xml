@@ -4,7 +4,10 @@
       <w>apimeteo</w>
       <w>appkey</w>
       <w>countrycode</w>
+      <w>currencyconverter</w>
       <w>entercity</w>
+      <w>headerhost</w>
+      <w>headerkey</w>
       <w>transf</w>
     </words>
   </dictionary>
